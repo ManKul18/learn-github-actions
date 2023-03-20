@@ -8,5 +8,3 @@ on:
 
 jobs:
   hello-there:
-		runs-on: ubuntu-latest
-		

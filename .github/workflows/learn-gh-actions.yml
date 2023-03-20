@@ -7,7 +7,7 @@ on:
       branches: [ main ]
 
 jobs:
-	build-and-test:
+  hello-there:
 		runs-on: ubuntu-latest
 		steps:
 		- uses: actions/checkout@v2

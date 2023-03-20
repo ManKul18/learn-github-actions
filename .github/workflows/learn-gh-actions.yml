@@ -10,5 +10,4 @@ jobs:
   hello-there:
     runs-on: ubuntu-latest
     steps:
-    - name: echo
     run: echo hello world

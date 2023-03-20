@@ -9,7 +9,7 @@
 class Test : public CPPUNIT_NS::TestCase
 {
     CPPUNIT_TEST_SUITE(Test);
-    CPPUNIT_TEST(test_hello_world);
+    CPPUNIT_TEST(testHelloWorld);
     CPPUNIT_TEST_SUITE_END();
 
 public:

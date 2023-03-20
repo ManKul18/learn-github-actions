@@ -4,7 +4,7 @@ all:
 
 test:
 	chmod +x hello
-	./tst/hello_test
+	./hello_test
 
 clean:
 	$(RM) hell hello_test

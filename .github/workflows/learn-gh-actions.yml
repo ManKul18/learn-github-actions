@@ -7,11 +7,10 @@ on:
       branches: [ main ]
 
 jobs:
-  hello-there:
+  build-and-run:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@v2
-      
     - name: install cppunit
-    run: echo hello world
+      run: echo hello world

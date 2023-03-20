@@ -10,6 +10,8 @@ jobs:
   hello-there:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: checkout
+      uses: actions/checkout@v2
+      
     - name: install cppunit
     run: echo hello world

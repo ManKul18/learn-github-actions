@@ -10,6 +10,14 @@ jobs:
   build-and-run:
     runs-on: ubuntu-latest
     steps:
+    - name: C++ linter
+      uses: actions/checkout@v2
+      uses: cpp-linter/cpp-linter-action@v2
+      id: linter
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        style: file
     - name: checkout
       uses: actions/checkout@v2
     - name: install cppunit

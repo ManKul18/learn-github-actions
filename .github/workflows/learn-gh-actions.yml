@@ -19,7 +19,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         style: file
-        repo-root: '../'
+        verbosity: '0'
     - name: install cppunit
       run: sudo apt install -y libcppunit-dev
     - name: configure

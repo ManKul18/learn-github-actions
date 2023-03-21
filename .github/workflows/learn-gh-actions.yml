@@ -20,6 +20,7 @@ jobs:
       with:
         style: file
         verbosity: '0'
+        repo-root: '/'
     - name: install cppunit
       run: sudo apt install -y libcppunit-dev
     - name: configure
